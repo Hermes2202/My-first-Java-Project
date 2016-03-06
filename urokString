@@ -1,0 +1,18 @@
+
+public class urokString {
+
+	public static void main(String[] args) {
+		String H = "Hello World,";
+		System.out.println(H);
+	String y = " you are whery interesting, ";
+		System.out.print(H + y);
+	String name = "I am Piter, I have ";
+			String money = " cent";
+	int sum = 50;
+	System.out.print(name + sum + money );
+	System.out.println();
+	System.out.println(H);
+
+	}
+
+}
