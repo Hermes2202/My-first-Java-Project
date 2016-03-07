@@ -1,0 +1,7 @@
+		
+	String name = "Piter";
+	System.out.println(name.length());
+
+	}
+
+}
