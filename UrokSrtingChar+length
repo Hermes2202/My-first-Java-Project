@@ -1,0 +1,22 @@
+public class UrokSrtingChar {
+
+	public static void main(String[] args) {
+		
+		String mjQuot = "I'm failed over and over and over again"
+				+ " in my life and that is why I succeed!";
+		
+		String name = "                                                               Mihael Jordan";
+		
+			System.out.println(mjQuot.length());
+			System.out.println(mjQuot.charAt(76));
+			
+		String lostLatter = " Posledniy Simvol";
+		
+		
+			System.out.println(mjQuot);
+			System.out.println();
+			System.out.println(name);
+			System.out.println((mjQuot.charAt(76) + lostLatter)) ;
+	}
+
+}
