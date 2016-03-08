@@ -1,0 +1,14 @@
+
+public class StringSustringReplace {
+
+	public static void main(String[] args) {
+		String mtQuote = "Let use always meet each other with smile, for the smile is the beginning of love";
+		System.out.println(mtQuote.length());
+		String Smile = ":)";
+		String first = mtQuote.substring(36,41);
+		
+		
+		System.out.println(mtQuote.replace(first,Smile));
+	}
+
+}
