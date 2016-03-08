@@ -1,0 +1,24 @@
+
+public class TankiPoleBoyaPerviyRound {
+
+	public static void main(String[] args) {
+		String C = "C";  /*Tank computer*/
+		String T = "T";  /*Tank player*/
+		String E = "E";  /*Eagle*/
+		String W = "W";  /*Water*/
+		String B = "B";  /*Build Wall*/
+		String R = "R";  /*Stone*/
+		String p = " ";  /*Empty cage*/
+			System.out.println(B+B+B+B+B+B+B+B+B);
+			System.out.println(B+C+p+p+p+p+p+C+B);
+			System.out.println(B+p+p+p+p+p+p+p+B);
+			System.out.println(B+p+p+p+W+p+p+p+B);
+			System.out.println(B+p+p+R+W+R+p+p+B);
+			System.out.println(B+p+p+p+W+p+p+p+B);
+			System.out.println(B+p+p+p+p+p+p+p+B);
+			System.out.println(B+p+p+p+E+p+p+p+B);
+			System.out.println(B+B+B+B+B+B+B+B+B);
+			
+	}
+
+}
