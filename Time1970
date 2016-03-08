@@ -1,0 +1,19 @@
+
+public class Time1970 {
+
+	public static void main(String[] args) {
+
+		System.out.println(System.currentTimeMillis());
+		
+		long time = System.currentTimeMillis();
+		
+		long D=(time/(1000*60*60*24));
+		long H=( time - (D*1000*60*60*24))/(1000*60*60);
+		long M=( time - ((D*1000*60*60*24) + (H*1000*60*60))) / (1000*60);
+		long S=( time - ((D*1000*60*60*24) + (H*1000*60*60) + (M*60*1000))) / 1000;
+		
+		
+		System.out.println(D + " : " + H + " : " + M + " : " + S);
+	}
+
+}
