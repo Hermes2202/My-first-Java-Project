@@ -1,0 +1,15 @@
+
+public class Zakrepleniye {
+
+	public static void main(String[] args){
+		
+		String s = "Education is the most poverful weapon wich you can use to change the world.";
+		
+		String t = "An investment in knowledge pays the best interest.";
+		
+		            /*"Use knowledge to change the world */
+	
+		
+		System.out.println(s.substring(50,55)+t.substring(17,26)+s.substring(50,75)); /*WOW-WOW-*/
+	}
+}
