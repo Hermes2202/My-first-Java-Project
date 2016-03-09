@@ -1,0 +1,12 @@
+
+public class Zakrepleniye {
+
+	public static void main(String[] args) {
+		double x = 25.6 ;
+		String y = String .valueOf(x);
+			System.out.println(y.substring(0,y.indexOf(".")));	
+			
+			System.out.println(y.substring(y.indexOf(".") +1 ));
+	}
+
+}
